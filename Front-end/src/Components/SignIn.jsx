@@ -25,7 +25,7 @@ const SignIn = () => {
     setLoading(true);
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000));
-      const res = await fetch("http://localhost:8000/api/signin", {
+      const res = await fetch( `${process.env.REACT_APP_API_URL}/signin`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
