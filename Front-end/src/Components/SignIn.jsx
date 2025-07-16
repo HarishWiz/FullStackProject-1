@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { userAuth } from "../Context/AuthContext";
 import { toast } from "react-toastify";
 import { useLoader } from "../Context/LoaderContext";
-import Loader from "./Loader";
+
 const SignIn = () => {
   const navigate = useNavigate();
   const { login } = userAuth();
@@ -21,6 +21,7 @@ const SignIn = () => {
 
   setTimeout(() => {}, 2000);
   const handleSubmit = async (e) => {
+    console.log(process.env.REACT_APP_API_URL)
     e.preventDefault();
     setLoading(true);
     try {
