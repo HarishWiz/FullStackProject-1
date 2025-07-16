@@ -12,7 +12,7 @@ const VerifyOtp = () => {
   const handleVerify = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/verify-otp`, {
+      const res = await fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/verify-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, otp, name, password }),

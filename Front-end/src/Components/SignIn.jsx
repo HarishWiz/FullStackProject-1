@@ -21,16 +21,18 @@ const SignIn = () => {
 
   setTimeout(() => {}, 2000);
   const handleSubmit = async (e) => {
-    console.log(process.env.REACT_APP_API_URL)
     e.preventDefault();
     setLoading(true);
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000));
-      const res = await fetch( `https://fullstackproject-1-ruan.onrender.com/api/signin`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+      const res = await fetch(
+        `${import.meta.env.VITE_REACT_APP_API_URL}/signin`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
       const data = await res.json();
       console.log(data);
       if (res.ok) {
