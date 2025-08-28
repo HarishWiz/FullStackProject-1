@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Traditional",
+    "description": "Classic Indian sweets made using traditional recipes.",
+    "image": "http://localhost:8000/images/traditional.jpg",
+    "createdAt": "2025-07-18T10:00:00.000Z"
+  },
+  {
+    "name": "Dry Fruits",
+    "description": "Sweets made with rich dry fruits like almonds, cashews, and pistachios.",
+    "image": "http://localhost:8000/images/dryfruits.jpg",
+    "createdAt": "2025-07-18T10:00:00.000Z"
+  },
+  {
+    "name": "Sugar-Free",
+    "description": "Healthy sweets without added sugar, perfect for the health conscious.",
+    "image": "http://localhost:8000/images/sugarfree.jpg",
+    "createdAt": "2025-07-18T10:00:00.000Z"
+  },
+  {
+    "name": "Fusion",
+    "description": "Modern fusion of Indian sweets with western ingredients.",
+    "image": "http://localhost:8000/images/fusion.jpg",
+    "createdAt": "2025-07-18T10:00:00.000Z"
+  },
+  {
+    "name": "Milk-Based",
+    "description": "Milk-rich sweets made with khoya, paneer, and condensed milk.",
+    "image": "http://localhost:8000/images/milkbased.jpg",
+    "createdAt": "2025-07-18T10:00:00.000Z"
+  }
+]

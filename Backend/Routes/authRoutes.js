@@ -59,10 +59,12 @@ router.post("/verify-otp", async (req, res) => {
     // Remove Temp OTP Record
     await TempOtp.deleteOne({ email });
 
-    res.status(201).json({message:"Account Verified and Created Successfully"})
+    res
+      .status(201)
+      .json({ message: "Account Verified and Created Successfully" });
   } catch (error) {
-    console.log(error)
-    res.status(500).json({message:"Something went Wrong"})
+    console.log(error);
+    res.status(500).json({ message: "Something went Wrong" });
   }
 });
 

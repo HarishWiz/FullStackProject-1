@@ -1,0 +1,512 @@
+[
+    {
+        "name": "Kaju Katli",
+        "description": "Thin slices of cashew fudge, a traditional favorite.",
+        "category": "ObjectId('category_id_traditional')",
+        "price": 450,
+        "discount": 0,
+        "image": "http://localhost:8000/images/kajukatli.jpg",
+        "ingredients": [
+            "Cashew",
+            "Sugar",
+            "Ghee",
+            "Silver Leaf"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.8,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Amit Sharma",
+                "comment": "Delicious and melts Loved the texture view",
+                "stars": 5,
+                "date": "2025-07-18T10:10:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:05:00.000Z"
+    },
+    {
+        "name": "Gulab Jamun",
+        "description": "Soft, syrupy balls made from khoya, soaked in sugar syrup.",
+        "category": "ObjectId('category_id_traditional')",
+        "price": 300,
+        "discount": 10,
+        "image": "http://localhost:8000/images/gulabjamun.jpg",
+        "ingredients": [
+            "Khoya",
+            "Flour",
+            "Sugar Syrup",
+            "Cardamom"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.6,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:15:00.000Z"
+    },
+    {
+        "name": "Dry Fruit Barfi",
+        "description": "Rich barfi packed with almonds, cashews, and pistachios.",
+        "category": "ObjectId('category_id_dry_fruits')",
+        "price": 480,
+        "discount": 5,
+        "image": "http://localhost:8000/images/dryfruitbarfi.jpg",
+        "ingredients": [
+            "Almonds",
+            "Cashews",
+            "Pistachios",
+            "Sugar",
+            "Ghee"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Priya Singh",
+                "comment": "Perfect balance of nuts and sweetness.",
+                "stars": 4,
+                "date": "2025-07-18T10:20:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:20:00.000Z"
+    },
+    {
+        "name": "Anjeer Halwa",
+        "description": "Sweet halwa made from dried figs and mixed nuts.",
+        "category": "ObjectId('category_id_dry_fruits')",
+        "price": 400,
+        "discount": 0,
+        "image": "http://localhost:8000/images/anjeerhalwa.jpg",
+        "ingredients": [
+            "Dried Figs",
+            "Almonds",
+            "Sugar",
+            "Ghee",
+            "Cardamom"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.5,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:25:00.000Z"
+    },
+    {
+        "name": "Sugar-Free Rasgulla",
+        "description": "Spongy rasgullas sweetened with stevia for diabetics.",
+        "category": "ObjectId('category_id_sugar_free')",
+        "price": 320,
+        "discount": 0,
+        "image": "http://localhost:8000/images/sugarfreerasgulla.jpg",
+        "ingredients": [
+            "Cottage Cheese",
+            "Stevia Syrup",
+            "Saffron"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.4,
+        "reviews": [],
+        "customFields": {
+            "diabeticFriendly": true
+        },
+        "createdAt": "2025-07-18T10:30:00.000Z"
+    },
+    {
+        "name": "Sugar-Free Ladoo",
+        "description": "Motichoor ladoos sweetened with jaggery and dates.",
+        "category": "ObjectId('category_id_sugar_free')",
+        "price": 290,
+        "discount": 5,
+        "image": "http://localhost:8000/images/sugarfreeladoo.jpg",
+        "ingredients": [
+            "Besan",
+            "Jaggery",
+            "Dates",
+            "Ghee"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.5,
+        "reviews": [],
+        "customFields": {
+            "diabeticFriendly": true
+        },
+        "createdAt": "2025-07-18T10:35:00.000Z"
+    },
+    {
+        "name": "Chocolate Sandesh",
+        "description": "Bengali sandesh infused with dark chocolate flavor.",
+        "category": "ObjectId('category_id_fusion')",
+        "price": 360,
+        "discount": 0,
+        "image": "http://localhost:8000/images/chocolatesandesh.jpg",
+        "ingredients": [
+            "Paneer",
+            "Cocoa Powder",
+            "Sugar",
+            "Vanilla"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.9,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Rahul Verma",
+                "comment": "Amazing fusion of flavors!",
+                "stars": 5,
+                "date": "2025-07-18T10:40:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:40:00.000Z"
+    },
+    {
+        "name": "Mango Kulfi Bar",
+        "description": "Creamy kulfi with a tropical mango twist, shaped as bars.",
+        "category": "ObjectId('category_id_fusion')",
+        "price": 250,
+        "discount": 10,
+        "image": "http://localhost:8000/images/mangokulfibar.jpg",
+        "ingredients": [
+            "Milk",
+            "Mango Puree",
+            "Sugar",
+            "Cardamom"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:45:00.000Z"
+    },
+    {
+        "name": "Rasmalai",
+        "description": "Soft paneer dumplings soaked in sweetened milk.",
+        "category": "ObjectId('category_id_milk_based')",
+        "price": 340,
+        "discount": 0,
+        "image": "http://localhost:8000/images/rasmalai.jpg",
+        "ingredients": [
+            "Paneer",
+            "Milk",
+            "Sugar",
+            "Saffron",
+            "Pistachios"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.8,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:50:00.000Z"
+    },
+    {
+        "name": "Malai Peda",
+        "description": "Creamy milk peda garnished with pistachios.",
+        "category": "ObjectId('category_id_milk_based')",
+        "price": 380,
+        "discount": 5,
+        "image": "http://localhost:8000/images/malaipeda.jpg",
+        "ingredients": [
+            "Khoya",
+            "Sugar",
+            "Pistachios",
+            "Cardamom"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.6,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T10:55:00.000Z"
+    },
+    {
+        "name": "Sugar-Free Barfi",
+        "description": "Creamy barfi made with sugar substitutes for a healthy treat.",
+        "category": "ObjectId('category_id_sugar_free')",
+        "price": 350,
+        "discount": 0,
+        "image": "http://localhost:8000/images/sugarfreebarfi.jpg",
+        "ingredients": [
+            "Khoya",
+            "Stevia",
+            "Almonds",
+            "Ghee"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.3,
+        "reviews": [],
+        "customFields": {
+            "diabeticFriendly": true
+        },
+        "createdAt": "2025-07-18T11:00:00.000Z"
+    },
+    {
+        "name": "Pista Roll",
+        "description": "Cylindrical sweets packed with pistachio flavor.",
+        "category": "ObjectId('category_id_dry_fruits')",
+        "price": 420,
+        "discount": 0,
+        "image": "http://localhost:8000/images/pistaroll.jpg",
+        "ingredients": [
+            "Pistachios",
+            "Khoya",
+            "Sugar",
+            "Ghee"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:05:00.000Z"
+    },
+    {
+        "name": "Jalebi",
+        "description": "Crispy, golden spirals soaked in saffron-infused sugar syrup.",
+        "category": "ObjectId('category_id_traditional')",
+        "price": 280,
+        "discount": 5,
+        "image": "http://localhost:8000/images/jalebi.jpg",
+        "ingredients": [
+            "Flour",
+            "Sugar Syrup",
+            "Saffron",
+            "Ghee"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Sneha Patel",
+                "comment": "Perfectly crispy and sweet!",
+                "stars": 5,
+                "date": "2025-07-18T11:10:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:10:00.000Z"
+    },
+    {
+        "name": "Badam Halwa",
+        "description": "Rich almond halwa with a melt-in-the-mouth texture.",
+        "category": "ObjectId('category_id_dry_fruits')",
+        "price": 460,
+        "discount": 0,
+        "image": "http://localhost:8000/images/badamhalwa.jpg",
+        "ingredients": [
+            "Almonds",
+            "Sugar",
+            "Ghee",
+            "Saffron",
+            "Cardamom"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.8,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:15:00.000Z"
+    },
+    {
+        "name": "Sugar-Free Kaju Peda",
+        "description": "Creamy cashew peda sweetened with stevia for health-conscious consumers.",
+        "category": "ObjectId('category_id_sugar_free')",
+        "price": 400,
+        "discount": 5,
+        "image": "http://localhost:8000/images/sugarfreekajupeda.jpg",
+        "ingredients": [
+            "Cashew",
+            "Stevia",
+            "Milk Solids",
+            "Ghee"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.4,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Vikram Gupta",
+                "comment": "Great for diabetics, tastes amazing!",
+                "stars": 4,
+                "date": "2025-07-18T11:20:00.000Z"
+            }
+        ],
+        "customFields": {
+            "diabeticFriendly": true
+        },
+        "createdAt": "2025-07-18T11:20:00.000Z"
+    },
+    {
+        "name": "Rose Ladoo",
+        "description": "Delicate ladoos infused with rose essence and garnished with almonds.",
+        "category": "ObjectId('category_id_fusion')",
+        "price": 350,
+        "discount": 0,
+        "image": "http://localhost:8000/images/roseladoo.jpg",
+        "ingredients": [
+            "Besan",
+            "Sugar",
+            "Rose Water",
+            "Almonds",
+            "Ghee"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.6,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:25:00.000Z"
+    },
+    {
+        "name": "Kesar Burfi",
+        "description": "Saffron-infused milk burfi with a creamy texture.",
+        "category": "ObjectId('category_id_milk_based')",
+        "price": 390,
+        "discount": 5,
+        "image": "http://localhost:8000/images/kesarburfi.jpg",
+        "ingredients": [
+            "Khoya",
+            "Sugar",
+            "Saffron",
+            "Pistachios"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:30:00.000Z"
+    },
+    {
+        "name": "Mysore Pak",
+        "description": "Rich, buttery sweet made with gram flour and ghee.",
+        "category": "ObjectId('category_id_traditional')",
+        "price": 320,
+        "discount": 0,
+        "image": "http://localhost:8000/images/mysorepak.jpg",
+        "ingredients": [
+            "Besan",
+            "Sugar",
+            "Ghee",
+            "Cardamom"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.5,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Anjali Rao",
+                "comment": "Authentic taste, loved it!",
+                "stars": 5,
+                "date": "2025-07-18T11:35:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:35:00.000Z"
+    },
+    {
+        "name": "Walnut Barfi",
+        "description": "Nutty barfi made with walnuts and a hint of cardamom.",
+        "category": "ObjectId('category_id_dry_fruits')",
+        "price": 430,
+        "discount": 0,
+        "image": "http://localhost:8000/images/walnutbarfi.jpg",
+        "ingredients": [
+            "Walnuts",
+            "Sugar",
+            "Ghee",
+            "Cardamom"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.6,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:40:00.000Z"
+    },
+    {
+        "name": "Sugar-Free Sandesh",
+        "description": "Bengali sandesh made with sugar substitutes, perfect for diabetics.",
+        "category": "ObjectId('category_id_sugar_free')",
+        "price": 340,
+        "discount": 0,
+        "image": "http://localhost:8000/images/sugarfreesandesh.jpg",
+        "ingredients": [
+            "Paneer",
+            "Stevia",
+            "Saffron"
+        ],
+        "type": "HealthyChoice",
+        "isAvailable": true,
+        "rating": 4.3,
+        "reviews": [],
+        "customFields": {
+            "diabeticFriendly": true
+        },
+        "createdAt": "2025-07-18T11:45:00.000Z"
+    },
+    {
+        "name": "Coffee Kaju Katli",
+        "description": "Traditional kaju katli with a bold coffee flavor infusion.",
+        "category": "ObjectId('category_id_fusion')",
+        "price": 380,
+        "discount": 5,
+        "image": "http://localhost:8000/images/coffeekajukatli.jpg",
+        "ingredients": [
+            "Cashew",
+            "Sugar",
+            "Coffee Extract",
+            "Ghee"
+        ],
+        "type": "Premium",
+        "isAvailable": true,
+        "rating": 4.8,
+        "reviews": [
+            {
+                "userId": "64d0fe4f5311236168a109ca",
+                "userName": "Neha Kapoor",
+                "comment": "Unique and delicious!",
+                "stars": 5,
+                "date": "2025-07-18T11:50:00.000Z"
+            }
+        ],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:50:00.000Z"
+    },
+    {
+        "name": "Rabri",
+        "description": "Thickened milk dessert garnished with nuts and saffron.",
+        "category": "ObjectId('category_id_milk_based')",
+        "price": 360,
+        "discount": 0,
+        "image": "http://localhost:8000/images/rabri.jpg",
+        "ingredients": [
+            "Milk",
+            "Sugar",
+            "Saffron",
+            "Almonds",
+            "Pistachios"
+        ],
+        "type": "Bestseller",
+        "isAvailable": true,
+        "rating": 4.7,
+        "reviews": [],
+        "customFields": {},
+        "createdAt": "2025-07-18T11:55:00.000Z"
+    }
+]

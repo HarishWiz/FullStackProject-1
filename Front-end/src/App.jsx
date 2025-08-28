@@ -1,39 +1,27 @@
-import React from "react";
-import HomePage from "./Components/HomePage";
-import Navbar from "./Components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Components/Layout";
-import BlogPage from "./Components/BlogPage";
-import AboutPage from "./Components/AboutPage";
-import ContactPage from "./Components/ContactPage";
-import PageNotFound from "./Components/PageNotFound";
-import SignIn from "./Components/SignIn";
-import SignUp from "./Components/SignUp";
-import Profile from "./Components/Profile";
-import VerifyOtp from "./Components/VerifyOtp";
+import RoutesPage from "./Pages/RoutesPage";
+import { AuthProvider } from "./Context/AuthContext.jsx";
+import { LoaderProvider } from "./Context/LoaderContext.jsx";
+import { CategoryProvider } from "./Context/CategoryProvider.jsx";
+import { ProductProvider } from "./Context/ProductProvider.jsx";
+import { FilterProvider } from "./Context/FilterContext.jsx";
+import Loader from "./Components/Loader.jsx";
 import { ToastContainer } from "react-toastify";
-import Loader from "./Components/Loader";
-
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/profile" element={<Profile />} />
-          </Route>
-          <Route path="*" element={<PageNotFound />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/verify-otp" element={<VerifyOtp />} />
-          <Route path="/signin" element={<SignIn />} />
-        </Routes>
-        <ToastContainer/>
-        <Loader/>
-      </BrowserRouter>
+      <LoaderProvider>
+        <AuthProvider>
+          <CategoryProvider>
+            <ProductProvider>
+              <FilterProvider>
+                <RoutesPage />
+              </FilterProvider>
+            </ProductProvider>
+          </CategoryProvider>
+        </AuthProvider>
+        <ToastContainer />
+        <Loader />
+      </LoaderProvider>
     </div>
   );
 };

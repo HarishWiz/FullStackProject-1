@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+
+@theme{
+    --font-pacifio: "Pacifico", "cursive";
+    --font-poppins: "Poppins", "sans-serif";
+    --color-primary: #F97316;
+    --color-blackprimary:#111827;
+    --color-blacksecondary:#4B5563;
+    --color-border:#E2E8F0;
+    --color-primaryhover:#EA580C;
+}
+
+body::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+}
+
+body::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
